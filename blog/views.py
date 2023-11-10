@@ -20,7 +20,7 @@ class PostDetail(View):
             liked=True
         return render(
             request,
-            "post_detail.html"
+            "post_detail.html",
             {
                 "post": post,
                 "comments": comments,
