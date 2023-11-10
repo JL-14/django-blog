@@ -30,7 +30,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-jl14-djangoblog-qcvr9mtyx29.ws-eu106.gitpod.io',
-'jl-14-django-blog.herokuapp.com', 'localhost']
+'jl-14-django-blog-ae009c0207aa.herokuapp.com',
+'jl-14-django-blog.herokuapp.com', 
+'localhost']
 
 
 # Application definition
